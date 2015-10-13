@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Your description goes here" />
+  <meta name="keywords" content="your,keywords,goes,here" />
+  <meta name="author" content="Your Name" />
+  <link rel="stylesheet" type="text/css" href="andreas00.css" media="screen,projection" />
+  <title><TEMPLATE-TITLE></title>
+</head>
+
+<body>
+<div id="wrap">
+	<div id="header">
+	 <font color=#FAFAFA >	<h1></h1>
+	<p><b><h2></h2></b></p>
+	</font> 
+	</div>
+
+	<div id="leftside">
+		<h2 class="hide">Sample menu:</h2>
+		<ul class="avmenu">
+                       <TEMPLATE-MENU>
+                         <br>
+			<li><a href="https://lists.gforge.inria.fr/mailman/listinfo/d2d-4-5g-project">(private) Mailing List</a></li>
+			<li><a href="https://partage.inria.fr/share/page/site/d2d-4-5g/documentlibrary">(private) Shared Repository</a></li>
+			<li><a href="https://gforge.inria.fr/plugins/mediawiki/wiki/d2d-4-5g/">(private) Wiki</a></li>
+			<li><a href="https://gforge.inria.fr/scm/?group_id=7706">(private) SCM</a></li>
+		</ul>
+
+
+
+		
+	</div>
+
+	<div id="extras">
+		
+	<!-- img src="img/logo-inria.png" height="60" width="200" class="center" alt="Example content image" / -->
+		<h2>Related links:</h2>
+		<ul>
+			<li><a href="http://www.cefipra.org/">CEFIPRA</a></li>
+			
+		</ul>
+
+		<div class="announce">
+			<h2>News:</h2>
+			<p><strong>Open positions:</strong><br />
+			<a href="phd-postdoc-position.html">PhD/PostDoc position</a> </p>
+
+			<p><strong>5 May 2015:</strong><br />
+			Kickoff meeting at IIT Mumbai </p>
+			<!-- <p class="textright"><a href="https://sites.google.com/site/">Meeting&raquo;</a></p> -->
+		</div>
+	</div>
+
+
+<!-- ================================================== -->
+
+    <div id="content" style="text-align: justify;">
+
+    <TEMPLATE-CONTENT>
+
+    </div>
+
+<!-- ================================================== -->
+
+	<div id="footer">
+		<p><span>&copy; 2015 <a href="#">Partners of D2D project</a></span><br />
+		<!-- img src="img/logo-inria.png" height="40" width="100" class="center" alt="Example content image" / -->
+<span style="font-size: 10%;"> <a href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a> | Modified by <a href="http://Jasoncole.ca">Jason Cole</a> | Modified by <a href="http://fr.viadeo.com/fr/profile/hana.baccouch">Hana Baccouch</a> and C. Adjih </span></p>
+	</div>
+
+</div>
+</body>
+</html>
