@@ -22,7 +22,7 @@ TemplateFileName = "site.template-html"
 FileList = [
     "andreas00.css",
     ("Home", "index.content.html", None),
-    ("PhD/Post-Doc Positions", "phd-postdoc-position.content.html", None),
+    #("PhD/Post-Doc Positions", "phd-postdoc-position.content.html", None),
     (None, "Background/image-networks.png", "img/image-networks.png"),
     "img/D2D-figure.png"
 ]
