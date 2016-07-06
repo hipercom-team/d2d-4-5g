@@ -43,9 +43,13 @@
 		</ul>
 
 		<div class="announce">
-			<h2>News:</h2>
+		        <h2>News:</h2>
+			<p><strong>22 June 2016:</strong><br />
+			Plenary Meeting in Paris</p>
+
 			<p><strong>21 June 2016:</strong><br />
-			<a href="http://tiny.cc/d2d-5g-iot">D2D Workshop in Paris</a> </p>
+			  <a href="Workshop-June2016">D2D Workshop in Paris</a>
+ 			  <a href="http://tiny.cc/d2d-5g-iot" style="text-decoration:line-through;">(registration</a> closed)</p>
 
 			<p><strong>29 May 2015:</strong><br />
 			Kickoff meeting at IIT Bombay </p>

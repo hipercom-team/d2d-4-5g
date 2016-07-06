@@ -22,12 +22,17 @@ TemplateFileName = "site.template-html"
 FileList = [
     "andreas00.css",
     ("Home", "index.content.html", None),
+    ("D2D Workshop in Paris <br>(21st June 2016)", "d2d-workshop.content.html", None),
     #("PhD/Post-Doc Positions", "phd-postdoc-position.content.html", None),
     (None, "Background/image-networks.png", "img/image-networks.png"),
     "img/D2D-figure.png"
 ]
 
 #---------------------------------------------------------------------------
+
+ReplaceList = [
+    ("d2d-workshop.html", "Workshop-June2016")
+]
 
 # <li><a class="current" href="index.html">Home</a></li>
 
@@ -112,6 +117,8 @@ def generatePage(templateContent, menuList, menuName, content):
         ).replace(
             "<TEMPLATE-CONTENT>", content
         )
+        for before,after in ReplaceList:
+            generatedContent = generatedContent.replace(before, after)
         return generatedContent
 
 for (menuName, srcPath, dstFileName) in generatedFileList:
